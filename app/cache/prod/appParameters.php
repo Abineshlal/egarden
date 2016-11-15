@@ -1,8 +1,8 @@
 <?php return array (
   'parameters' => 
   array (
-    'database_host' => '127.11.179.2',
-    'database_port' => '3306',
+    'database_host' => getenv('OPENSHIFT_MYSQL_DB_HOST'),
+    'database_port' => getenv('OPENSHIFT_MYSQL_DB_PORT'),
     'database_name' => 'egarden',
     'database_user' => 'adminBE8lzDS',
     'database_password' => 'AMAWLgEfJejV',
