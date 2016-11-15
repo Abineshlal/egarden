@@ -1,0 +1,15 @@
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51: 
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51:  // Clearing the cache for the prod environment with debug                     
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51:  // false                                                                      
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51: 
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51: 
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51:                                                                                
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51:   [Symfony\Component\Filesystem\Exception\IOException]                         
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51:   Failed to remove directory "E:\capc-code-base\prestashop\app\cache\pro~\ann  
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51:   otations": rmdir(E:\capc-code-base\prestashop\app\cache\pro~\annotations):   
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51:   Directory not empty.                                                         
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51:                                                                                
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51: 
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51: cache:clear [--no-warmup] [--no-optional-warmers] [-h|--help] [-q|--quiet] [-v|vv|vvv|--verbose] [-V|--version] [--ansi] [--no-ansi] [-n|--no-interaction] [-s|--shell] [--process-isolation] [-e|--env ENV] [--no-debug] [--] <command>
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51: 
+*ERROR* 	v1.7.0.0	2016/11/15 - 13:55:51: 

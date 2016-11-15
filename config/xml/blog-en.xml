@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>EN - Ecommerce blog by PrestaShop</title>
+	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.prestashop.com/blog/en</link>
+	<description></description>
+	<lastBuildDate>Tue, 15 Nov 2016 06:00:22 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>5 keys to a successful marketplace strategy</title>
+		<link>https://www.prestashop.com/blog/en/5-keys-successful-marketplace-strategy/</link>
+		<comments>https://www.prestashop.com/blog/en/5-keys-successful-marketplace-strategy/#comments</comments>
+		<pubDate>Tue, 15 Nov 2016 06:00:22 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Robinson]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22308</guid>
+		<description><![CDATA[<p>Marketplaces can be a boon for small online companies just starting out, but they can also be overwhelming. It’s easy to feel invisible amidst the competition that thrives within the ecosystem of an industry giant like Amazon. Fear not. In today’s video, Nicolas Maufrais, PrestaShop Agencies Partnership Manager with Shopping Flux gives you a technical [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/5-keys-successful-marketplace-strategy/">5 keys to a successful marketplace strategy</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Marketplaces can be a boon for small online companies just starting out, but they can also be overwhelming.<br />
+It’s easy to feel invisible amidst the competition that thrives within the ecosystem of an industry giant like Amazon.<span id="more-22308"></span></p>
+<p>Fear not. In today’s video, Nicolas Maufrais, PrestaShop Agencies Partnership Manager with Shopping Flux gives you a technical and marketing toolkit to get the most out of marketplaces, from first sale to international development.</p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/pDMsybvLtQk?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=youtube&amp;utm_content=shopping flux"> Watch more videos</a></div>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/5-keys-successful-marketplace-strategy/">5 keys to a successful marketplace strategy</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/5-keys-successful-marketplace-strategy/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Code Better with PrestaShop 1.7</title>
+		<link>https://www.prestashop.com/blog/en/code-better-prestashop-1-7/</link>
+		<comments>https://www.prestashop.com/blog/en/code-better-prestashop-1-7/#comments</comments>
+		<pubDate>Mon, 14 Nov 2016 14:12:29 +0000</pubDate>
+		<dc:creator><![CDATA[Xavier Borderie]]></dc:creator>
+				<category><![CDATA[PrestaShop News]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22316</guid>
+		<description><![CDATA[<p>One of the key part of working on a major version is to review how things are made, to rethink our processes, and to modernize the codebase in order to stay technically relevant. Version 1.7 of PrestaShop is a major step in that direction, as this article will show. Note that most of the information [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/code-better-prestashop-1-7/">Code Better with PrestaShop 1.7</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>One of the key part of working on a major version is to review how things are made, to rethink our processes, and to modernize the codebase in order to stay technically relevant. Version 1.7 of PrestaShop is a major step in that direction, as this article will show.</p>
+<p><i>Note that most of the information in this article comes from earlier articles published on the </i><a href="http://build.prestashop.com/"><i>Build PrestaShop devblog</i></a><i>, which you should visit regularly for the latest news from the development team!</i></p>
+<p><span id="more-22316"></span><br />
+<strong>PrestaShop now includes the Symfony framework</strong></p>
+<p>The development team has long wanted to rethink the Core architecture of PrestaShop. The main idea has always been to make it more modular, more testable, and of course more robust.</p>
+<p>Version 1.6.1.0 of PrestaShop was a first go at this idea. But the team quickly found that it wasn’t enough to rewrite our own framework: the best way was to use what the Open Source community provides us with.</p>
+<p>PrestaShop 1.7 will introduce Symfony2 in its Core codebase. This major release will be a great turn on the technical side of the application, but this change will be negotiated smoothly and over the long term: not everything will change with 1.7.</p>
+<p>Introducing a framework was decided in order to eventually get rid of the “home-made framework” part of the application, and most notably of its maintenance workload, which consumes too much time and is not our core business features (managing a cart, handling orders, calculating prices and taxes, generating invoices, etc.).</p>
+<p>Using a proven and popular open-source framework will allow us to focus on our core business code with greater efficiency, while enjoying the stability of a globally recognized framework.</p>
+<p>&nbsp;</p>
+<p><strong>PHP requirements upgraded to version 5.4</strong></p>
+<p>Because we’ve always made sure your PrestaShop store could run on a cheap shared hosting plan in a far far away land, we had to support PHP all the way back to version 5.2 – a version that has been unsupported <a href="http://php.net/eol.php">since January 2011</a>.</p>
+<p>In June 2015, the development team chose to switch the PHP 5.4 as the minimum requirement to run PrestaShop. We could jump all the way to version 5.5 or even 5.6, but those are still supported <a href="http://w3techs.com/technologies/details/pl-php/5/all">by very few hosts</a>.</p>
+<p>Using PHP 5.4 allows development to integrate new tools:</p>
+<ul>
+<li><a href="https://getcomposer.org/">Composer</a></li>
+<li><a href="http://php.net/manual/en/language.namespaces.php">Namespaces</a></li>
+<li><a href="http://php.net/manual/en/class.closure.php">Closures </a>and <a href="http://php.net/manual/en/functions.anonymous.php">lambda functions</a></li>
+<li><a href="http://php.net/manual/en/control-structures.alternative-syntax.php">Shorthands</a></li>
+</ul>
+<p>Note that PrestaShop 1.7 is also compatible with PHP 7.</p>
+<p>&nbsp;</p>
+<p><strong>New development standards<br />
+</strong><br />
+The PrestaShop codebase moved from our in-house coding standards to PSR-2 in July 2015.</p>
+<p>Since then, we chose to integrate the Symfony framework into the codebase. So, what’s more natural than to follow <a href="http://symfony.com/doc/current/contributing/code/standards.html">their coding standards</a>? It comes as a complement of the PSR standards (<a href="http://www.php-fig.org/psr/psr-0/">PSR-0</a>,<a href="http://www.php-fig.org/psr/psr-1/">PSR-1</a>,<a href="http://www.php-fig.org/psr/psr-2/">PSR-2</a> and<a href="http://www.php-fig.org/psr/psr-4/">PSR-4</a>).</p>
+<p>Some noteworthy rules:</p>
+<ul>
+<li>Use camelCase, not_underscores, for variable names, function names, method names, and arguments names.</li>
+<li><a href="https://en.wikipedia.org/wiki/Yoda_conditions"> </a><a href="https://en.wikipedia.org/wiki/Yoda_conditions">Yoda conditions</a> you should use.</li>
+<li>Add a comma after each array item in a multi-line array, even after the last one.</li>
+</ul>
+<p>And because PrestaShop is much more than just PHP code, we adopted coding standards for our other languages:</p>
+<ul>
+<li>JavaScript: we chose to follow the well-detailed and documented <a href="https://github.com/airbnb/javascript">Airbnb JavaScript Style Guide</a>.</li>
+<li>CSS &amp; HTML: we have decided to follow the Bootstrap 4 <a href="http://codeguide.co/">coding standards</a>.</li>
+</ul>
+<p>○     Also used for Smarty / Twig code.</p>
+<p>We created an <a href="http://editorconfig.org/">EditorConfig</a> file to help you! It is located at the root of the PrestaShop repository: <a href="https://github.com/PrestaShop/PrestaShop/blob/develop/.editorconfig">you can download it here</a>.</p>
+<p>It’s particularly useful when having to handle different tab sizes depending on the file type.</p>
+<p>&nbsp;</p>
+<p><strong>New developer documentation</strong></p>
+<p>Historically, PrestaShop hosted its documentation on <a href="http://doc.prestashop.com/">http://doc.prestashop.com</a>, powered by the Atlassian Confluence wiki system. We feel it is not very developer-friendly – you can’t contribute easily (you have to ask for a user account to be created), the design is outdated, too many clicks are needed to reach an information, etc. &#8211; so we decided to move to another system for the 1.7 technical documentation.</p>
+<p>As of today, the legacy documentation website is still online, and the new website basically hosts the 1.7-specific tech doc (themes and modules):</p>
+<ul>
+<li>1.4-1.7 merchant doc and 1.4-1.6 tech doc: <a href="http://doc.prestashop.com/">http://doc.prestashop.com</a></li>
+<li>1.7 tech doc: <a href="http://developers.prestashop.com/">http://developers.prestashop.com</a></li>
+</ul>
+<p>Since it’s plain text files, it’s versioned with Git and <a href="https://github.com/PrestaShop/docs">hosted on GitHub</a>. Is there an easier way for you, as developers, to contribute? <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p>Please <a href="https://github.com/PrestaShop/docs/pulls">open a pull request</a> to fix or add anything. You can <a href="https://github.com/PrestaShop/docs/issues">open an issue</a> if you want to request documentation about anything specific. For example: <i>“how to use the new product page hooks”</i>, or <i>“how to use the theme template in a module”</i>.</p>
+<p>&nbsp;</p>
+<p><strong>More on PrestaShop 1.7 <a href="https://www.prestashop.com/en/1.7">here</a>!</strong></p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/code-better-prestashop-1-7/">Code Better with PrestaShop 1.7</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/code-better-prestashop-1-7/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>What to look for when selecting a payment module</title>
+		<link>https://www.prestashop.com/blog/en/look-selecting-payment-module/</link>
+		<comments>https://www.prestashop.com/blog/en/look-selecting-payment-module/#comments</comments>
+		<pubDate>Wed, 09 Nov 2016 08:45:07 +0000</pubDate>
+		<dc:creator><![CDATA[Preston's Friends]]></dc:creator>
+				<category><![CDATA[PrestaShop Partners]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22295</guid>
+		<description><![CDATA[<p>There are many factors to consider when identifying a payment module for your online store. Different stores have different needs and certain modules are more likely to meet your needs than others. Unfortunately, many small business owners, overwhelmed by the sheer choice, make the mistake of selecting a payment processor based solely on price. One [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/look-selecting-payment-module/">What to look for when selecting a payment module</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>There are many factors to consider when identifying a payment module for your online store. Different stores have different needs and certain modules are more likely to meet your needs than others. <span id="more-22295"></span>Unfortunately, many small business owners, overwhelmed by the sheer choice, make the mistake of selecting a payment processor based solely on price.</p>
+<p>One thing to be aware of when shopping around for a payment module is something called breakage: the idea that a certain percentage of visitors to your site will leave without making a purchase because of an inefficiency on the page. Many things can lead to breakage, from poor navigation to slow site speed, but using a payment module that isn’t adapted to your site can also do this. To prevent breakage, a payment module should make the checkout process easy, require as few clicks as possible and have the ability to store information securely to avoid redundant keystrokes.</p>
+<p>An appropriate payment module that is working well on a site will help contribute to increased conversions. To help boost conversions, consider using a module that includes “auto-ship” or “subscription” features which encourage consumers to set up recurring orders at the time of their initial purchase.</p>
+<p>Another factor to consider is how much information your payment module is passing to your processor at the time of authorization. Keep in mind that credit card processing methods are divided into three types: Level 1, Level 2 and Level 3. Each level is defined by how much information is needed to complete a payment, with Level 1 requiring the least for a payment to receive authorization. A characteristic of credit card interchange structure for purchases using a corporate card or a purchasing card—allow for additional information such as PO Number, Tax Amount, and Line Item Detail to be added to the transaction prior to authorization. This is important from the merchant’s perspective because the interchange fees he or she pays as part of the transaction fees are significantly reduced.</p>
+<p>Finally, remember to consider operational efficiency: can you manage your payment transactions directly from your store or do you need to login to a third party gateway to perform voids, issue refunds, or manage subscription settings? Look for a module than can handle everything directly in your back office, and that doesn’t require you to bounce from one site to another.</p>
+<p>This month we are featuring a payment module created by SkyBank Financial (<a href="http://www.skybankfinancial.com" target="_blank">www.skybankfinancial.com</a>), a leading provider of payment services in the United States. <a href="http://addons.prestashop.com/en/18167-skybank-advanced-payment-system.html" target="_blank">SkyBank’s Advance Payment System Module</a> incorporates everything we’ve talked about today and, for a limited time, can be downloaded for free from the PrestaShop Addons Store. SkyBank offers a lifetime lowest processing rate guarantee and award-winning, in-house customer service with a dedicated chargeback resolution department.</p>
+<p>Check it out today and let us know what you think!</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/look-selecting-payment-module/">What to look for when selecting a payment module</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/look-selecting-payment-module/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PrestaShop 1.7 is now available: discover the next generation of PrestaShop</title>
+		<link>https://www.prestashop.com/blog/en/prestashop-1-7-now-available-discover-new-functions/</link>
+		<comments>https://www.prestashop.com/blog/en/prestashop-1-7-now-available-discover-new-functions/#comments</comments>
+		<pubDate>Fri, 04 Nov 2016 16:02:34 +0000</pubDate>
+		<dc:creator><![CDATA[Sebastien Levaillant]]></dc:creator>
+				<category><![CDATA[Best Development Practices]]></category>
+		<category><![CDATA[PrestaShop News]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22279</guid>
+		<description><![CDATA[<p>Throughout 2016, the PrestaShop team and our community have been working hand-in-hand to develop a new version of PrestaShop with some significant features and improvements. We’re incredibly excited to announce that 1.7 is ready to launch and available today at PrestaShop.com. Our goal for 1.7 is to help everyone to overcome the challenges of building [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/prestashop-1-7-now-available-discover-new-functions/">PrestaShop 1.7 is now available: discover the next generation of PrestaShop</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Throughout 2016, the PrestaShop team and our community have been working hand-in-hand to develop a new version of PrestaShop with some significant features and improvements. We’re incredibly excited to announce that 1.7 is ready to launch and available today at <a href="https://www.prestashop.com/en/1.7">PrestaShop.com</a>.</p>
+<p>Our goal for 1.7 is to help everyone to overcome the challenges of building and growing an online business. Key features will allow you to deliver more, with better quality, and faster. Some of you may have seen the major themes in our first video about 1.7. These are not just themes, they are objectives. We want all PrestaShop merchants, developers and designers to be more successful with 1.7 so let’s discover what’s inside…</p>
+<p><span id="more-22279"></span><br />
+<strong><span style="color: #251b5b">Sell Faster: a shorter time to market</span><br />
+</strong>We have completely redesigned both the product and modules pages. With 1.7, adding new products, managing the catalog, and module management will take significantly less time and effort. We’ve also revamped the product check-out process which will improve the experience for your shoppers. By simplifying the front and back-office, you can sell more products faster than ever.</p>
+<p><strong><span style="color: #251b5b">Create Easier: a unique user experience</span><br />
+</strong>The user experience in your store is a powerful way to create a great brand experience online. You’ll generate more loyalty and convert more visits into sales. In the coming months, we’ll be talking a lot about the importance of UX in ecommerce. For front-end developers and theme designers, you will discover a brand new Starter Theme in 1.7. Free from any markups or custom style, this new starter theme will enable you to build amazing templates in no time.</p>
+<p><strong><span style="color: #251b5b">Code Better: Standardizing on Symfony</span><br />
+</strong>Version 1.7 incorporates new tools and standards, including the popular Symfony framework, and PHP 7 compatibility. The goal is to improve site performance, code security and new development on PrestaShop. The integration of Symfony is particularly significant. Using a popular open-source framework will enable developers to code with more efficiency and to benefit from a globally recognized framework.</p>
+<p><strong>This is the 7th major release of PrestaShop and we want to thank everyone who has contributed to Version 1.7. In addition to all of the features mentioned above, 1.7 is already available 25 languages! We could not do all of this without our amazing community. <a href="https://www.prestashop.com/en/1.7">Download PrestaShop 1.7 </a>today and get ready for an incredible year of ecommerce in 2017!</strong></p>
+<p>Helpful Links:<br />
+• Version 1.7 is available for download <a href="https://www.prestashop.com/en/download">here</a><br />
+• Articles about 1.7 can be found on our developer blog <a href="http://build.prestashop.com/">http://build.prestashop.com/</a><br />
+• Testimonials about Version 1.7 can be seen on our <a href="https://www.youtube.com/watch?v=i-gsmt5Y84c">YouTube channel</a></p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/prestashop-1-7-now-available-discover-new-functions/">PrestaShop 1.7 is now available: discover the next generation of PrestaShop</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/prestashop-1-7-now-available-discover-new-functions/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Meet Krystian, Ambassador of the month &#124; October 2016</title>
+		<link>https://www.prestashop.com/blog/en/meet-krystian-ambassador-month-october-2016/</link>
+		<comments>https://www.prestashop.com/blog/en/meet-krystian-ambassador-month-october-2016/#comments</comments>
+		<pubDate>Mon, 31 Oct 2016 14:32:13 +0000</pubDate>
+		<dc:creator><![CDATA[Margaux Choplin]]></dc:creator>
+				<category><![CDATA[PrestaShop Ambassadors]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22258</guid>
+		<description><![CDATA[<p>With 49 contributions on GitHub and 1147 active posts on the forum, Krystian – one of our Ambassadors from Poland – is one of our top contributors. He has been chosen to be the Ambassador of the Month. We’ve asked him to answer a few questions. About you Three words to best describe you: Workaholic, [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-krystian-ambassador-month-october-2016/">Meet Krystian, Ambassador of the month | October 2016</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>With 49 contributions on GitHub and 1147 active posts on the forum, Krystian – one of our Ambassadors from Poland – is one of our top contributors. He has been chosen to be the Ambassador of the Month. We’ve asked him to answer a few questions.<span id="more-22258"></span></p>
+<h2><span style="color: #c6005b;">About you</span></h2>
+<p><strong>Three words to best describe you:</strong><br />
+Workaholic, geek and confident.</p>
+<p><strong>If you were to write a book about yourself, what would you name it?<br />
+</strong>Maybe just “Krystian Podemski” <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" /> </p>
+<p><strong>What is your hidden talent?</strong><br />
+I don&#8217;t think I have, back in the days I was good at football</p>
+<p><strong>A favorite line from a movie? </strong><br />
+“Don’t wait for things to get easier, simpler, better. Life will always be complicated.’ Learn to be happy right now. Otherwise, you’ll run out of time.” – Intouchables (French movie)</p>
+<p><strong>If you could travel anywhere right now, where would you go and why?</strong><br />
+For sure it would be a Madrid, I’m huge Real Madrid fan! ⚽</p>
+<h2><span style="color: #c6005b;">About your country</span></h2>
+<p><strong>What is your favorite local food or drink?</strong><br />
+In Poland we have something called “Kotlet Schabowy”, and yeah, it’s amazing.</p>
+<div id="attachment_22262" style="width: 623px" class="wp-caption alignnone"><img class="size-full wp-image-22262" alt="Koklet Schabowy – credits: agnieszkacrow" src="https://www.prestashop.com/blog/en/files/2016/10/30280441966_dc05455bcc_o.jpg" width="613" height="423" /><p class="wp-caption-text">Kotlet Schabowy – credits: Piviso</p></div>
+<p><strong>Give us a fun fact about your country:<br />
+</strong>Most Poles watch “<a href="https://upload.wikimedia.org/wikipedia/en/7/76/Home_alone_poster.jpg" target="_blank">Home Alone</a>” during the Christmas period. Every. Single. Year!</p>
+<h2><span style="color: #c6005b;">About PrestaShop</span></h2>
+<p><strong>What is your favorite PrestaShop store?</strong><br />
+I don’t think I have one. As a programmer I review the shops in a different way than other people, I’ve seen so many PrestaShop stores that it’s hard to choose only one!</p>
+<p><strong>What opportunities does PrestaShop provide in your country?</strong><br />
+PrestaShop is one of the two most popular open source software solutions in Poland. PrestaShop is easy-to-use, stable and visually appealing, and that’s what makes people love it so much.</p>
+<p>Additionally, PrestaShop is surrounded by a great community and its service is completed by all the local addons offered on its marketplace.</p>
+<p><strong>How do you help the Polish community know about PrestaShop?</strong><br />
+You can find me on the <a href="https://www.prestashop.com/forums/forum/227-polskie-forum/" target="_blank">Polish PrestaShop forum</a> and on a few Facebook groups where I help members and answer their questions about PrestaShop. Although most of the time I’m trying to help by improving PrestaShop with useful Addons, by making Pull Request on <a href="https://github.com/PrestaShop" target="_blank">GitHub</a> to fix bugs or just by reporting issues on the <a href="http://forge.prestashop.com/secure/Dashboard.jspa" target="_blank">Forge</a>.</p>
+<p><strong>What is your feedback on the new major version, PrestaShop 1.7?</strong><br />
+Many good changes, especially for developers, which means that we can expect even better Addons and Themes for PrestaShop. Thanks to the new architecture and many improvements in the back-office, using PrestaShop should be even easier and faster than it was in 1.6.</p>
+<p>I agree that we can describe PrestaShop with two sentences: Sell faster, Create faster.</p>
+<p>Both merchants and developers should be happy with <a href="https://www.prestashop.com/en/1.7" target="_blank">PrestaShop 1.7</a>!</p>
+<p><strong>How did you personally contribute to the development of PrestaShop 1.7?</strong><br />
+As I have been working with PrestaShop over 8 years, I’m trying to use my experience and give the best feedback possible related to the new version on <a href="https://gitter.im/PrestaShop/General" target="_blank">Gitter</a> (chat for developers) on the Forum and during Skype conferences with the PrestaShop team.</p>
+<h2><span style="color: #c6005b;">About being an Ambassador</span></h2>
+<p><strong>What is your proudest moment as a PrestaShop Ambassador?</strong><br />
+Be chosen Ambassador of the month. Also, when I was not yet ambassador, for sure I have been proud to be on the list of the top 40 PrestaShop contributors.</p>
+<p><strong>What do you like the most about being an Ambassador?</strong><br />
+Great contact with the PrestaShop Team and the fact that people trust more my opinions and recommendations.</p>
+<p><strong>A last word?</strong><br />
+I wish everyone high conversion in your PrestaShop stores!</p>
+<p>Thank you very much Krystian!</p>
+<p>Find out more about <a href="http://ambassadors.prestashop.com/ambassador/krystian-podemski" target="_blank">Krystian&#8217;s profile</a><br />
+Do you want to become a PrestaShop Ambassador? <a href="http://ambassadors.prestashop.com/application-form" target="_blank">Apply now </a></p>
+<p>See you next month</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-krystian-ambassador-month-october-2016/">Meet Krystian, Ambassador of the month | October 2016</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/meet-krystian-ambassador-month-october-2016/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Le Slip Français Explains Its Phenomenal Success</title>
+		<link>https://www.prestashop.com/blog/en/le-slip-francais-explains-phenomenal-success/</link>
+		<comments>https://www.prestashop.com/blog/en/le-slip-francais-explains-phenomenal-success/#comments</comments>
+		<pubDate>Tue, 25 Oct 2016 07:00:48 +0000</pubDate>
+		<dc:creator><![CDATA[mvalenza]]></dc:creator>
+				<category><![CDATA[Success Stories]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22239</guid>
+		<description><![CDATA[<p>&#8220;If you want to change the world, start by changing your briefs&#8221;. The slogan says a lot about the identity and reputation of Le Slip Français, known for their made-in-France briefs — but not just that! Le Slip Français was launched through PrestaShop by Guillaume Gibault five years ago, and has achieved phenomenal success both [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/le-slip-francais-explains-phenomenal-success/">Le Slip Français Explains Its Phenomenal Success</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>&#8220;If you want to change the world, start by changing your briefs&#8221;.<br />
+The slogan says a lot about the identity and reputation of Le Slip Français, known for their made-in-France briefs — but not just that!<span id="more-22239"></span></p>
+<p>Le Slip Français was launched through PrestaShop by Guillaume Gibault five years ago, and has achieved phenomenal success both in France and around the world! It’s all thanks to a unique product, an original communications strategy, and a strong product identity.<br />
+In this interview Clément Coignac, E-Commerce Director at Le Slip Français, explains the keys to success for this unique company, and offers some valuable advice to you, the e-retailers!</p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/1T8YOcTRLWk?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=youtube&amp;utm_content=leslipfrancais"> Watch more videos</a></div>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/le-slip-francais-explains-phenomenal-success/">Le Slip Français Explains Its Phenomenal Success</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/le-slip-francais-explains-phenomenal-success/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Christmas 2016: PrestaShop is here to help you prepare for the online shopping season!</title>
+		<link>https://www.prestashop.com/blog/en/christmas-2016-prestashop-help-prepare-online-shopping-season/</link>
+		<comments>https://www.prestashop.com/blog/en/christmas-2016-prestashop-help-prepare-online-shopping-season/#comments</comments>
+		<pubDate>Thu, 20 Oct 2016 13:53:52 +0000</pubDate>
+		<dc:creator><![CDATA[Camille Sila]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22201</guid>
+		<description><![CDATA[<p>Do you hear the sound of jingle bells? Yes… the countdown to the 2016 holiday season has started and so have PrestaShop #JingleDays ! From November through January, we’re here to help you during the busiest online shopping season of the year! We know the next few weeks will be very busy for you. Our blog posts, Facebook [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/christmas-2016-prestashop-help-prepare-online-shopping-season/">Christmas 2016: PrestaShop is here to help you prepare for the online shopping season!</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Do you hear the sound of jingle bells? Yes… the countdown to the 2016 holiday season has started and so have PrestaShop <strong>#JingleDays</strong> ! From November through January, we’re here to help you during the busiest online shopping season of the year! <span id="more-22201"></span></p>
+<p>We know the next few weeks will be very busy for you. Our <strong>blog posts, Facebook Live, videos and contests are designed to give you some fast and helpful tips and yes</strong>… there will be a few fun surprises along the way!</p>
+<p>Follow us on <a href="https://twitter.com/PrestaShop" target="_blank">Twitter</a> with <strong><a href="https://twitter.com/search?q=%23JingleDays&amp;src=typd" target="_blank">#JingleDays</a></strong> and our <a href="https://www.facebook.com/prestashop/" target="_blank">Facebook</a> page so you get all of the advice, tips, and tools that you need for this ecommerce season.</p>
+<p>Let’s start immediately with the<strong> Ecommerce Christmas Checklist</strong>. This comprehensive checklist will help you to get organized and track your progress from now until the January sales are over.</p>
+<p><a href="https://www.prestashop.com/blog/en/files/2016/10/Checklist_marketing2-3.jpg"><img class="aligncenter size-full wp-image-22202" alt="Xmas ecommerce checklist" src="https://www.prestashop.com/blog/en/files/2016/10/Checklist_marketing2-3.jpg" width="1200" height="3610" /></a></p>
+<h3 style="text-align: center;"></h3>
+<p>&nbsp;</p>
+<p style="font-size: 20px; text-align: center;"><strong><span style="color: #f00e6d;">Get our next ecommerce checklist!</span></strong></p>
+<p style="font-size: 20px; text-align: center;"><strong><span style="color: #f00e6d;">Subscribe to our newletter ⬇️</span></strong></p>
+<p style="text-align: center;">
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/christmas-2016-prestashop-help-prepare-online-shopping-season/">Christmas 2016: PrestaShop is here to help you prepare for the online shopping season!</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/christmas-2016-prestashop-help-prepare-online-shopping-season/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Get funded to develop plugins with PrestaShop</title>
+		<link>https://www.prestashop.com/blog/en/get-funded-develop-plugins-prestashop/</link>
+		<comments>https://www.prestashop.com/blog/en/get-funded-develop-plugins-prestashop/#comments</comments>
+		<pubDate>Tue, 18 Oct 2016 09:27:51 +0000</pubDate>
+		<dc:creator><![CDATA[Margaux Choplin]]></dc:creator>
+				<category><![CDATA[PrestaShop News]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22195</guid>
+		<description><![CDATA[<p>Last year, PrestaShop launched a $1,000,000 integration fund to give developers worldwide the resources needed to create modules for their local markets. In today’s video, you’ll learn more about the fund from developers themselves and how to apply today to improve PrestaShop in your region! Apply now</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/get-funded-develop-plugins-prestashop/">Get funded to develop plugins with PrestaShop</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Last year, PrestaShop launched a $1,000,000 integration fund to give developers worldwide the resources needed to create modules for their local markets. In today’s video, you’ll learn more about the fund from developers themselves and how to apply today to improve PrestaShop in your region!<br />
+<span id="more-22195"></span></p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/6Pf_jkYQlL0?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="http://bit.ly/2e0edfl">Apply now</a></div>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/get-funded-develop-plugins-prestashop/">Get funded to develop plugins with PrestaShop</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/get-funded-develop-plugins-prestashop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to improve user experience to boost conversions</title>
+		<link>https://www.prestashop.com/blog/en/improve-user-experience-boost-conversions/</link>
+		<comments>https://www.prestashop.com/blog/en/improve-user-experience-boost-conversions/#comments</comments>
+		<pubDate>Tue, 11 Oct 2016 06:00:04 +0000</pubDate>
+		<dc:creator><![CDATA[Sarah De Castro]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22188</guid>
+		<description><![CDATA[<p>Learn from the expert! Olivier Sauvage, founder of Capitaine Commerce blog, gives some handy tips to improve your online store that you can implement immediately. While simplicity, engagement, emotion and interactivity may seem like empty terms every eMarketer is throwing around, Olivier gives us the real-world action plan to make sure these factors are optimized [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/improve-user-experience-boost-conversions/">How to improve user experience to boost conversions</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Learn from the expert! Olivier Sauvage, founder of Capitaine Commerce blog, gives some handy tips to improve your online store that you can implement immediately.<span id="more-22188"></span></p>
+<p>While simplicity, engagement, emotion and interactivity may seem like empty terms every eMarketer is throwing around, Olivier gives us the real-world action plan to make sure these factors are optimized on your site. eCommerce is becoming ever increasingly competitive so knowing how to truly engage with your sites visitors is essential.</p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/YInc0BTnyD0?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&#038;utm_medium=article&#038;utm_campaign=youtube&#038;utm_content=capitaine"></i> Watch more videos</a></div>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/improve-user-experience-boost-conversions/">How to improve user experience to boost conversions</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/improve-user-experience-boost-conversions/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Meet Sagar, Ambassador of the month &#124; September 2016</title>
+		<link>https://www.prestashop.com/blog/en/meet-sagar-ambassador-month-september-2016/</link>
+		<comments>https://www.prestashop.com/blog/en/meet-sagar-ambassador-month-september-2016/#comments</comments>
+		<pubDate>Mon, 03 Oct 2016 11:28:41 +0000</pubDate>
+		<dc:creator><![CDATA[Margaux Choplin]]></dc:creator>
+				<category><![CDATA[PrestaShop Ambassadors]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22178</guid>
+		<description><![CDATA[<p>With the ongoing growth of our Ambassador community, we are delighted to announce a new category of post named &#8220;Ambassador of the month&#8221; to show our appreciation to our Ambassadors. This post is the first of a long series of posts about them for you to get to know them better. Each month, we’ll interview [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-sagar-ambassador-month-september-2016/">Meet Sagar, Ambassador of the month | September 2016</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>With the ongoing growth of our Ambassador community, we are delighted to announce a new category of post named &#8220;Ambassador of the month&#8221; to show our appreciation to our Ambassadors. This post is the first of a long series of posts about them for you to get to know them better. Each month, we’ll interview one of them. After organizing a student workshop and a community meetup in Kathmandu in September, <a href="http://ambassadors.prestashop.com/ambassador/hem-sagar-pokhrel" target="_blank">Sagar</a> – our Ambassador in <a href="https://www.meetup.com/PrestaShop-Kathmandu-Ecommerce-Meetup/" target="_blank">Nepal</a> – has been chosen to be the first Ambassador of the Month. We’ve asked him to answer a few questions.<span id="more-22178"></span></p>
+<h2><span style="color: #dd1068">About you</span></h2>
+<p><strong>Three words to best describe you:</strong><br />
+Techno-geek, hardworking, and team-player.</p>
+<p><strong>If you were to write a book about yourself, what would you name it?</strong><br />
+Life of a Geek <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> </p>
+<p><strong>What is your hidden talent?</strong><br />
+I’m an excellent swimmer and I love writing.</p>
+<p><strong>A favorite line from a movie?</strong><br />
+It’s from my favorite movie “October Sky”.</p>
+<p>Homer (Jake Gyllenhaal) to his dad John (Chris Cooper): “I may not be the best, but I come to believe that I got it in me to be somebody in this world. And it&#8217;s not because I&#8217;m so different from you either. It&#8217;s because I&#8217;m the same. I mean, I can be just as hard-headed, and just as tough. I only hope I can be as good a man as you. Sure, Werner von Braun is a great scientist but he isn&#8217;t my hero.”</p>
+<p><strong>If you could travel anywhere right now, where would you go and why?</strong></p>
+<p>In that case, I would like to escape out from the earth and spend a week or more in space. You will probably see my video featured in www.spaceadventures.com where I’ll be taking a selfie in Preston’s outfit. <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> </p>
+<p>The reason is simple. I believe that we, living beings, are sharing a common home called earth. Why not going beyond and exploring our surroundings? ☺</p>
+<h2><span style="color: #dd1068">About your country</span></h2>
+<p><strong>What is your favorite local food or drink?</strong><br />
+MoMo with Coca-Cola Combo. MoMo is a type of steamed dumpling filled with meat or vegetables and is one of the most popular fast food in Nepal.</p>
+<p><img class="alignnone size-full wp-image-22179" alt="Momo - Nepal - credits Megara Tegal" src="https://www.prestashop.com/blog/en/files/2016/10/Momo-Nepal-credits-Megara-Tegal.jpg" width="960" height="636" /></p>
+<p>Chicken momos – credits: Megara Tegal</p>
+<p><strong>Give us a fun fact about your country:</strong></p>
+<p>Nepal is the home of a living goddess we call “Kumari”.</p>
+<p>Kathmandu valley alone has 7 World Heritage Sites. You may not need to visit any cultural museum being here, the whole Kathmandu valley is one. ☺</p>
+<p>Another fun fact: slaughtering cow is prohibited in my country as over 80% of Nepal’s population is of Hindu religion and worships cow as god. So, you won’t get any beef items here!</p>
+<h2><span style="color: #dd1068">About PrestaShop</span></h2>
+<p><strong>What opportunities does PrestaShop provide in your country?</strong></p>
+<p><strong></strong>The PrestaShop community is currently being established in Nepal. We are doing our best to grow a strong PrestaShop community and create opportunities for designers, developers as well as merchants.</p>
+<p>The open-source philosophy of PrestaShop allows to get engaged with a community and meetups allow to network with like-minded peoples and solve related issues for those who want to get into Ecommerce.</p>
+<p><strong>What is your feedback on the new major version, PrestaShop 1.7?</strong></p>
+<p>PrestaShop 1.7 is light, cool and simple with an elegant Startup theme including bootstrap 4 framework along with a user-friendly back-office interface.</p>
+<p>Regarding the new back-office: take a tour part, quick access, and redesigned interface are what I found awesome compared to the previous one. Interface changes are more user-friendly and easy-to-use. Adding and managing product section is also better than the previous versions.</p>
+<p>The product display in front-office and the category section are more pleasing than prior. Changes in the main navigation menu are remarkable. <strong>This will surely help novice users to use Prestashop easily and merchants to sell faster.</strong></p>
+<p>Lastly, introducing Symfony framework in 1.7 is a real incentive for developers to code better, to maintain coding standards and to easily develop new modules.</p>
+<h2><span style="color: #dd1068">About being an Ambassador</span></h2>
+<p><strong>What is your proudest moment as a PrestaShop Ambassador?</strong></p>
+<p>Forming Nepal’s PrestaShop community, organizing workshops, meetups and finally being recognized as the first “Ambassador of The Month” is the proudest moment for me. Also, after being introduced as a PrestaShop ambassador, I was recently invited by a renowned businessman in town to discuss on future possibilities. He also offered me to join his team. ☺</p>
+<p><strong>What do you like the most about being an Ambassador?</strong></p>
+<p>It provides me with the opportunity to showcase my skills and expertise to the community, meet like-minded people, expand my network and contribute somehow to the tech ecosystem of my country.</p>
+<p>I recently joined <a href="https://crowdin.com/project/prestashop-official" target="_blank">Crowdin</a> and started to <a href="https://twitter.com/NepaliSagar/status/781851252556607488" target="_blank">contribute</a> in translating PrestaShop in Nepali language as well.<br />
+Lastly, I like attending webinars with the awesome PrestaShop Team and getting exclusive information about the upcoming releases.</p>
+<p><strong>A last word? </strong></p>
+<p>Try it! PrestaShop is a great option for all of those who want to get into Ecommerce.</p>
+<p>Whether you are a designer, a developer, a merchant, a web agency, a teacher, a student, or a future entrepreneur, I recommend that you try this awesome tool once. Trust me, you won’t be disappointed.</p>
+<p><strong>Thank you very much Sagar!</strong></p>
+<p>Find out more about <a href="http://ambassadors.prestashop.com/ambassador/hem-sagar-pokhrel" target="_blank">Sagar’s profile</a> and <a href="https://www.meetup.com/PrestaShop-Kathmandu-Ecommerce-Meetup/" target="_blank">join his meetup group</a>!</p>
+<p>Do you want to become a PrestaShop Ambassador? <a href="http://ambassadors.prestashop.com/application-form" target="_blank">Apply now</a>.</p>
+<p>See you next month <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-sagar-ambassador-month-september-2016/">Meet Sagar, Ambassador of the month | September 2016</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/meet-sagar-ambassador-month-september-2016/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
